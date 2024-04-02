@@ -62,6 +62,7 @@ class _AnasayfaState extends State<Anasayfa> {
                   icon: const Icon(Icons.search)),
         ],
       ),
+      //card
       body: FutureBuilder<List<Kisiler>>(
           future: kisileriYukle(),
           builder: (context, snapshot) {
