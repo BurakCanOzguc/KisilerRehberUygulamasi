@@ -25,6 +25,7 @@ class _AnasayfaState extends State<Anasayfa> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.grey,
         title: aramaYapiliyorMu
             ? TextField(
                 decoration: const InputDecoration(hintText: "Ara"),
@@ -71,6 +72,7 @@ class _AnasayfaState extends State<Anasayfa> {
                     });
                   },
                   child: Card(
+                    color: Colors.blueAccent,
                     child: SizedBox(
                       height: 100,
                       child: Row(
